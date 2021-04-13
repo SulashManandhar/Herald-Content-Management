@@ -1,0 +1,37 @@
+.wrapper{
+    padding:5px;
+}
+
+.container{
+    width: 555px;
+    margin:5px;
+    float:left;
+    border:1px solid white;
+    box-shadow: black 1px 2px 5px 0px;
+}
+
+.container a:hover{
+    background-color: coral;
+}
+
+.img-container{
+    float:left;
+    width:220px;
+    margin:5px;
+    box-shadow: black 0px 2px 5px 0px;
+}
+
+.img-container img{
+    width: 100%;
+    height: auto;
+}
+
+.text-container{
+    float:right;
+    font-size: 18px;
+    height: 220px;
+    margin:5px;
+    padding:5px;
+    overflow: hidden;
+    width: 300px;
+}
