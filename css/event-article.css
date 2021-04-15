@@ -28,8 +28,9 @@
 
 .text-container{
     float:right;
-    font-size: 18px;
+    font-size: 16px;
     height: 220px;
+    text-align: justify;
     margin:5px;
     padding:5px;
     overflow: hidden;
