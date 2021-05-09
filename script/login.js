@@ -14,9 +14,10 @@ var password=localStorage.getItem("password");
 console.log(email,password);
 
 function myFunction() {
+    
     const key=inputEmail;
     const val=inputPassword;
     console.log(key);
     console.log(val);
-    
+
 }

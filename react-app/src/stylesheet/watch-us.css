@@ -1,0 +1,36 @@
+.video-container{
+    width: 1190px;
+    padding:5px;
+    margin: auto;
+}
+
+.main-container{
+    padding: 5px;;
+}
+.sub-container{
+    float: left;
+    width:1150px;
+    height:160px;
+    margin: 10px;
+    padding: 10px;;
+    outline: 1px solid black;
+    box-shadow: 2px 4px 5px 0px black;
+}
+.img-container{
+    float: left;
+    outline: none;
+    box-shadow: 2px 4px 5px 0px black;
+   
+}
+.img-container img{
+    width:150px;
+    height: 150px;
+    padding: 0px 5px;
+}
+
+.text-container{
+    float: left;
+    padding: 5px;
+    margin: 0px 10px;
+    overflow: auto;
+}
