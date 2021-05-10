@@ -17,10 +17,10 @@ export default class App extends Component {
         <Header/>
         <Switch>
           <Route exact path ="/" component={Index}></Route>
-          <Route exact path ="/watch-us" component={WatchUs}></Route>
-          <Route exact path ="/view-us" component={ViewUs}></Route>
-          <Route exact path ="/event-article" component={EventArticle}></Route>
-          <Route exact path ="/contact" component={Contact}></Route>
+          <Route  path ="/watch-us" component={WatchUs}></Route>
+          <Route  path ="/view-us" component={ViewUs}></Route>
+          <Route  path ="/event-article" component={EventArticle}></Route>
+          <Route  path ="/contact" component={Contact}></Route>
         </Switch>
         <Footer/>
       </BrowserRouter>

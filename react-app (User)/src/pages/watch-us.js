@@ -32,13 +32,14 @@ export default class WatchUs extends Component {
             </div>
 
             <h1><u>More video about us..</u></h1>
+            
             <div className="main-container clearfix">
                {this.state.data.map(item=>(
-                   <div className="sub-container clearfix">
-                        <div className="img-container">
+                   <div className="sub-container ">
+                        <div className="img-container clearfix">
                             <img src={item.image} alt="img" />
                         </div>
-                        <div className="text-container">
+                        <div className="text-container clearfix">
                             <h2>{item.heading}</h2>
                             <a href={item.link}>{item.link}</a>
                             <p>Description:{item.description}</p>
