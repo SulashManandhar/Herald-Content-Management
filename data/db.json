@@ -1,0 +1,52 @@
+{
+    "index-contain":[
+        {
+            "id":1,
+            "image":"/images/herald-symbol1.jpg",
+            "heading":"Herald College Kathmandu",
+            "paragraph":" Herald College Kathmandu (HCK) provides the best UK university education at most affordable fees. It offers Bachelor Degrees in IT and Business in direct partnership with the University of Wolverhampton, UK. Programmes that Herald College Kathmandu offers are flexible and have always aimed to foster a broader based knowledge. Herald College Kathmandu offers the BSc (Hons) International Business Management and BSc (Hons) in Computer Science qualification from the University of Wolverhampton (WLV)."
+        },
+        {
+            "id":2,
+            "image":"/images/wolverhamptom-logo.jpeg",
+            "heading":"Wolverhampton University",
+            "paragraph":" Wolverhampton University is excelled by innovation and opportunity, it offers over 300 different courses for students studying at every level: from undergraduate to post graduate, research degrees to distance learning. Currently they have about 19.100 students who study in full-time and part-time courses as well. Additional to their current students, they have alumni’s in over 150 countries."
+        },
+        {
+            "id":3,
+            "image":"/images/ING-Group-2.png",
+            "heading":"ING Group",
+            "paragraph":"ING Group is an investment holding company that focuses on innovating higher education in Nepal by blending international qualifications with local contexts. With ingenuity at the forefront of all our decisions, we strive to become a contributive factor in the betterment of Nepal and society in general by providing  practical career centric education and innovations in technology. ING Group houses state-of-the-art organizations in a variety of industries which include Tech, Education and More."
+        }
+    ],
+    "watch-us":[
+        {
+            "id":1,
+            "image":"/images/graduation-img.png",
+            "heading":"Herald College Graduation 2019",
+            "link":"https://www.youtube.com/watch?v=8t7OGDNNaIs",
+            "description":"We present to you the graduating class of 2019 from Herald College Kathmandu."
+        },
+        {
+            "id":2,
+            "image":"/images/ai-img.png",
+            "heading":"AI at Herald College Kathmandu",
+            "link":"https://www.youtube.com/watch?v=SNs8ytWduqs",
+            "description":"Learn more about Artificial Intelligence with Herald College Kathmandu."
+        },
+        {
+            "id":3,
+            "image":"/images/it and bit scope.png",
+            "heading":"Features of BBA and BIT program run at Herald College",
+            "link":"https://www.youtube.com/watch?v=fU7yxa-qJts",
+            "description":"Wanna know the feature of BBA and BIT?, join Herald now!"
+        },
+        {
+            "id":4,
+            "image":"/images/fyp.png",
+            "heading":"Auto Attendance System (FYP Herald College)",
+            "link":"https://www.youtube.com/watch?v=5OfJ-OzHbGE",
+            "description":"See auto attendance system prepared by one of our student."
+        }
+    ]
+}
