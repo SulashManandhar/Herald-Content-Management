@@ -1,0 +1,22 @@
+.footer{
+    text-align: center;
+    margin-top: 5px;
+    background-color: #74C043;
+    padding: 10px;
+    font-size: 20px;
+    color:white;
+    word-spacing: 5px;
+    border: none;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    -ms-border-radius: 5px 5px 0px 0px;
+    -o-border-radius: 5px 5px 0px 0px;
+}
+.social-container{
+    margin:auto;
+}
+
+.social-container img{
+    width:60px;
+}

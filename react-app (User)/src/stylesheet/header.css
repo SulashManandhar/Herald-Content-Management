@@ -1,0 +1,45 @@
+body{
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+#page-logo{
+    box-shadow: black 0.5px 1px 4px 0px;
+    border: none;
+    padding:5px;
+}
+nav{
+    background-color: #74C043;
+}
+
+nav ul{
+   list-style-type: none;
+   font-style:none;
+   overflow: hidden;
+}
+
+nav li{
+    float: left;
+    margin-left: 20px;
+    padding:15px;
+    /* background-color: #5be002; */
+}
+nav a{
+    display: inline-block;
+    font-size: 26px;
+    text-decoration: none;
+    color:white;
+}
+
+/* nav li a:hover{
+
+} */
+

@@ -1,4 +1,3 @@
-console.log("Hello");
 localStorage.clear();
 localStorage.setItem("email", "adminLogin@heraldcollege.edu.np");
 localStorage.setItem("password", "adminLogin");

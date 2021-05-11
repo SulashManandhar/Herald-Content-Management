@@ -1,0 +1,44 @@
+.video-container{
+    width: 1190px;
+    padding:5px;
+    margin: auto;
+}
+
+.main-container{
+    padding: 5px;;
+}
+.sub-container{
+    float: left;
+    width:1150px;
+    height:200px;
+    margin: 10px;
+    padding: 10px;;
+    outline: 1px solid black;
+    box-shadow: 2px 4px 5px 0px black;
+}
+.img-container{
+    float: left;
+    width: auto;
+    height: auto;
+    outline: none;
+    box-shadow: 2px 4px 5px 0px black;
+   
+}
+.img-container img{
+    width:180px;
+    height: 180px;
+    padding: 0px 5px;
+}
+
+.text-container{
+    float: left;
+    padding: 5px;
+    height: 150px;
+    width: 70%;
+    margin: 0px 10px;
+    overflow: hidden;
+}
+.text-container p{
+    font-size: 14px;
+    text-align: justify;
+}
