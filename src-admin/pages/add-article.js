@@ -42,9 +42,6 @@ export default class AddVideo extends Component {
                     </div>     
                 </div>
 
-    
-
-    
                 <div className="sub-container" id="button-container">
                     <button id="btn">Add an article</button>
                 </div>
