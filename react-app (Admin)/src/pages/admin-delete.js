@@ -4,7 +4,7 @@ import '../stylesheet/admin.css';
 
     const body = {
     } 
-export default class Admin extends Component {
+export default class AdminDelete extends Component {
   
     
     render() {
@@ -12,27 +12,27 @@ export default class Admin extends Component {
            <>
             <div className="admin-main-container  clearfix">    
                 <div className="admin-sub-container ">           
-                    <a href="/add-video">
-                        <h2>Add a video</h2>
-                    </a>
+                    <Link href="/add-video">
+                        <h2>Delete a video</h2>
+                    </Link>
                 </div>
             
                 <div className="admin-sub-container  ">
-                    <a href="/add-image">
-                        <h2>Add an image</h2>
-                    </a>
+                    <Link href="/add-image">
+                        <h2>Delete an image</h2>
+                    </Link>
                 </div>
                 
                 <div className="admin-sub-container ">
-                    <a href="/add-event">
-                        <h2>Announce an event</h2>
-                    </a>
+                    <Link href="/add-event">
+                        <h2>DElete an event</h2>
+                    </Link>
                 </div>
                 
                 <div className="admin-sub-container">
-                    <a href="/post-article">
-                        <h2>Post an article</h2>
-                    </a>
+                    <Link href="/post-article">
+                        <h2>Delete an article</h2>
+                    </Link>
                 </div>
 
             </div>
