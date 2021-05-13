@@ -37,7 +37,7 @@ export default class WatchUs extends Component {
                {this.state.data.map(item=>(
                    <div className="sub-container ">
                         <div className="img-container clearfix">
-                            <img src={item.image} alt="img" />
+                            <img src={item.image} alt="Image not found" />
                         </div>
                         <div className="text-container clearfix">
                             <h2>{item.heading}</h2>

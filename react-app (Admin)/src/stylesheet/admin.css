@@ -1,46 +1,42 @@
 body{
     max-width: 700px;
     margin: auto;
-    padding: auto;
     font-family: 'Times New Roman', Times, serif;
     background-color: #74C043;
     text-align: center;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
 
-
-.main-container{
-    float:left;
-    max-width: 690px;
-    height: auto;
+.admin-main-container{  
+    float: left;
+    width: 690px;
+    height:auto;
     padding: 5px;
     margin-top:150px;
     text-align: center;
     background-color: white;
     border: none;
     box-shadow: 2px 4px 5px 0px black;
-   
 }
 
 
-.sub-container{
-    float: left;
+.admin-sub-container{  
     width: 300px;
+    float: left;
     height: auto;
-    background-color: #74C043;
-    color: white;
+    background-color:#74C043;
     margin:10px;
     padding:5px;
     border: none;
-    box-shadow: 1px 2px 5px 0px black;
+    box-shadow: 1px 2px 5px 0px black;   
 }
 
-.sub-container a{
+.admin-sub-container a{
     text-decoration: none;
     color: white;
+}
+
+.admin-sub-container a:hover{
+    color: #006400;
+    /* font-size: 17px; */
 }
