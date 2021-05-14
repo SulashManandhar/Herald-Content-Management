@@ -1,52 +1,158 @@
 {
-    "index-contain":[
-        {
-            "id":1,
-            "image":"/images/herald-symbol1.jpg",
-            "heading":"Herald College Kathmandu",
-            "paragraph":" Herald College Kathmandu (HCK) provides the best UK university education at most affordable fees. It offers Bachelor Degrees in IT and Business in direct partnership with the University of Wolverhampton, UK. Programmes that Herald College Kathmandu offers are flexible and have always aimed to foster a broader based knowledge. Herald College Kathmandu offers the BSc (Hons) International Business Management and BSc (Hons) in Computer Science qualification from the University of Wolverhampton (WLV)."
-        },
-        {
-            "id":2,
-            "image":"/images/wolverhamptom-logo.jpeg",
-            "heading":"Wolverhampton University",
-            "paragraph":" Wolverhampton University is excelled by innovation and opportunity, it offers over 300 different courses for students studying at every level: from undergraduate to post graduate, research degrees to distance learning. Currently they have about 19.100 students who study in full-time and part-time courses as well. Additional to their current students, they have alumni’s in over 150 countries."
-        },
-        {
-            "id":3,
-            "image":"/images/ING-Group-2.png",
-            "heading":"ING Group",
-            "paragraph":"ING Group is an investment holding company that focuses on innovating higher education in Nepal by blending international qualifications with local contexts. With ingenuity at the forefront of all our decisions, we strive to become a contributive factor in the betterment of Nepal and society in general by providing  practical career centric education and innovations in technology. ING Group houses state-of-the-art organizations in a variety of industries which include Tech, Education and More."
-        }
-    ],
-    "watch-us":[
-        {
-            "id":1,
-            "image":"/images/graduation-img.png",
-            "heading":"Herald College Graduation 2019",
-            "link":"https://www.youtube.com/watch?v=8t7OGDNNaIs",
-            "description":"We present to you the graduating class of 2019 from Herald College Kathmandu."
-        },
-        {
-            "id":2,
-            "image":"/images/ai-img.png",
-            "heading":"AI at Herald College Kathmandu",
-            "link":"https://www.youtube.com/watch?v=SNs8ytWduqs",
-            "description":"Learn more about Artificial Intelligence with Herald College Kathmandu."
-        },
-        {
-            "id":3,
-            "image":"/images/it and bit scope.png",
-            "heading":"Features of BBA and BIT program run at Herald College",
-            "link":"https://www.youtube.com/watch?v=fU7yxa-qJts",
-            "description":"Wanna know the feature of BBA and BIT?, join Herald now!"
-        },
-        {
-            "id":4,
-            "image":"/images/fyp.png",
-            "heading":"Auto Attendance System (FYP Herald College)",
-            "link":"https://www.youtube.com/watch?v=5OfJ-OzHbGE",
-            "description":"See auto attendance system prepared by one of our student."
-        }
-    ]
+  "index-contain": [
+    {
+      "id": 1,
+      "image": "/images/herald-symbol1.jpg",
+      "heading": "Herald College Kathmandu",
+      "paragraph": " Herald College Kathmandu (HCK) provides the best UK university education at most affordable fees. It offers Bachelor Degrees in IT and Business in direct partnership with the University of Wolverhampton, UK. Programmes that Herald College Kathmandu offers are flexible and have always aimed to foster a broader based knowledge. Herald College Kathmandu offers the BSc (Hons) International Business Management and BSc (Hons) in Computer Science qualification from the University of Wolverhampton (WLV)."
+    },
+    {
+      "id": 2,
+      "image": "/images/wolverhamptom-logo.jpeg",
+      "heading": "Wolverhampton University",
+      "paragraph": " Wolverhampton University is excelled by innovation and opportunity, it offers over 300 different courses for students studying at every level: from undergraduate to post graduate, research degrees to distance learning. Currently they have about 19.100 students who study in full-time and part-time courses as well. Additional to their current students, they have alumni’s in over 150 countries."
+    },
+    {
+      "id": 3,
+      "image": "/images/ING-Group-2.png",
+      "heading": "ING Group",
+      "paragraph": "ING Group is an investment holding company that focuses on innovating higher education in Nepal by blending international qualifications with local contexts. With ingenuity at the forefront of all our decisions, we strive to become a contributive factor in the betterment of Nepal and society in general by providing  practical career centric education and innovations in technology. ING Group houses state-of-the-art organizations in a variety of industries which include Tech, Education and More."
+    }
+  ],
+  "watch-us": [
+    {
+      "id": 1,
+      "image": "/images/graduation-img.png",
+      "heading": "Herald College Graduation 2019",
+      "link": "https://www.youtube.com/watch?v=8t7OGDNNaIs",
+      "description": "We present to you the graduating class of 2019 from Herald College Kathmandu."
+    },
+    {
+      "id": 2,
+      "image": "/images/ai-img.png",
+      "heading": "AI at Herald College Kathmandu",
+      "link": "https://www.youtube.com/watch?v=SNs8ytWduqs",
+      "description": "Learn more about Artificial Intelligence with Herald College Kathmandu."
+    },
+    {
+      "id": 3,
+      "image": "/images/it and bit scope.png",
+      "heading": "Features of BBA and BIT program run at Herald College",
+      "link": "https://www.youtube.com/watch?v=fU7yxa-qJts",
+      "description": "Wanna know the feature of BBA and BIT?, join Herald now!"
+    },
+    {
+      "id": 4,
+      "image": "/images/fyp.png",
+      "heading": "Auto Attendance System (FYP Herald College)",
+      "link": "https://www.youtube.com/watch?v=5OfJ-OzHbGE",
+      "description": "This is the a video related to the Final Year Project done by one of our student."
+    }
+  ],
+  "event-and-article":[
+    {
+      "id":1,
+      "title":"Love sucks",   
+      "type":"Poem",       
+      "line1":"Love sucks,as a teen would say,but im an adult", 
+      "line2":"and love still sucks it sucks me dry, dry like an old passion fruit been left on the Kitchen table for weeks I have allot to give, but nothing to gain thats my pain.",
+      "line3":"and i self punished for a long long time, until a day stood still and i found a heart shape on your head my heart was dead, but your CPR worked well and so i was and am under your spell, but",
+      "line4":"you suck me dry like a salty dry thai fish dish oh how I long, just to be loved by you perhaps all the sucidal thoughts will leave my wrecked mind perhaps your not my love, perhaps you are but i got to move on,",
+      "line5":"ive forgotton to wish on my wishing star ive forgotton the magic of the world, the splendours of nature and the deep metaphysical notions that swim in my belly all i do now is think of you you drain my essence"
+    },
+    {
+      "id":2,
+      "title":"Autumn Rain",
+      "type":"Story",
+      "line1":"Have you ever had this feeling? Like you’re a helium balloon with your string cut. A rotting piece of wood adrift in the vast ocean.",
+      "line2":"Does saying it like that make me sound too pretentious? Thinking I’m some kind of literary youth. Of course I’m not. I’m just sad. Sad people tend to be under the impression that they’ve been possessed by Li Bai and suddenly know the gruesome secrets of the universe through a few lines of poetry. Second year of university; my life is great. All the sad things from the past can be thrown to the back of the mind. So, my life isn’t sad.",
+      "line3":"Im sitting in the library after hours because it’s raining outside and the librarian feels sorry for me.",
+      "line4":"Lin Yu. My name.",
+      "line5":"In Chinese, it’s written like 林雨. The first character is my surname – it means woods. The second character means rain. Don’t know whether my parents did this intentionally, but if you add three dots to the first character, make it 淋雨, and it means getting rained on. The pronunciation is the same."
+    },
+    {
+      "id":3,
+      "title":"Affection",
+      "type":"Song",
+      "line1":"Got the music in you baby, tell me why",
+      "line2":"Got the music in you baby, tell me why",
+      "line3":"You've been locked in there forever",
+      "line4":"And they just can't say goodbye",
+      "line5":"Kisses on the foreheads of the lovers  "
+    },
+    {
+      "id":4,
+      "title":"Short notice",
+      "type":"Informative",
+      "line1":"I would like to request everyone to stay at their home as the covid 19 cases are increasing day by day.",
+      "line2":"We will be working with the online classes for the rest of out semester",
+      "line3":"From,",
+      "line4":"Head of Herald",
+      "line5":"Something text"
+    }
+
+  ],
+  "view-us":[
+    {
+        "id":1,
+        "image":"/images/Photo.jpg",
+        "description":"Presentation Class"
+        
+    },
+    {
+        "id":2,
+        "image":"/images/Photo1.jpg",
+        "description":"Teacher guiding student while in trouble"
+    },
+    {
+        "id":3,
+        "image":"/images/Photo2.jpg",
+        "description":"Individual Presentation"
+    },
+    {
+        "id":4,
+        "image":"/images/Photo3.jpg",
+        "description":"Ongoing classes"
+    },
+    {
+        "id":5,
+        "image":"/images/Photo4.jpg",
+        "description":"Students having their personal time"
+    },
+    {
+        "id":6,
+        "image":"/images/Photo5.jpg",
+        "description":"Ongoing events in college premises"
+    },
+    {
+        "id":7,
+        "image":"/images/Photo6.jpg",
+        "description":"Students having juice in canteen permises"
+    },
+    {
+        "id":8,
+        "image":"/images/Photo7.jpg",
+        "description":"Workshop classes"
+    },
+    {
+        "id":9,
+        "image":"/images/Photo8.jpg",
+        "description":"Teacher on ongoing classes guiding the students"
+    },
+    {
+        "id":10,
+        "image":"/images/Photo9.jpg",
+        "description":"Spring carnival event time"
+    },
+    {
+        "id":11,
+        "image":"/images/Photo10.jpg",
+        "description":"ongoing college events"
+    },
+    {
+        "id":12,
+        "image":"/images/Photo11.jpg",
+        "description":"Graduation Ceremony"
+    }
+]
 }
