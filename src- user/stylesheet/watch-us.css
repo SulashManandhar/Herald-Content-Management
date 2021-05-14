@@ -18,16 +18,22 @@
 }
 .img-container{
     float: left;
-    width: auto;
-    height: auto;
+    width: 180px;
+    height: 180px;
     outline: none;
     box-shadow: 2px 4px 5px 0px black;
-   
+    text-align: center;
+    background-image: url(/src/herald-symbol1.jpg);
+    background-repeat: none;
+    background-size:contain;
+    color: white;
+    font-size: 18px;
+    
 }
 .img-container img{
     width:180px;
     height: 180px;
-    padding: 0px 5px;
+    padding: 0px;
 }
 
 .text-container{
