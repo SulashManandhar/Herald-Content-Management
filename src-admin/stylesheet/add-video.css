@@ -1,23 +1,8 @@
-body{
-    max-width: 550px;;
-    margin: auto;
-    padding: auto;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #74C043;
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-
 .video-main-container{
     width: 500px;
     height:540px;
     padding:50px;
-    margin-top: 60px;
+    margin:10px 0px 0px 420px;  
     background-color: white;
     text-align: center;
     border: none;

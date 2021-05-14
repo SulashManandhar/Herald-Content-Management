@@ -1,30 +1,15 @@
-body{
-    max-width: 550px;;
-    margin: auto;
-    padding: auto;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #74C043;
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-
-  .main-container{
-    width: 620px;
-    height:440px;
+.event-main-container{
+    width: 500px;
+    height:540px;
     padding:50px;
-    margin-top: 60px;
+    margin:10px 0px 0px 420px;  
     background-color: white;
     text-align: center;
     border: none;
     box-shadow: 2px 4px 5px 0px black;
 }
 
-.header{
+.event-header{
     width: 450px;
     height: 80px;
     margin: auto;
@@ -33,48 +18,51 @@ body{
     color: white;
     text-align: center;
 }
-.header span{
+.event-header span{
     font-size: 26px;
 }
 
-.sub-container{
+.event-sub-container{
     margin: auto;
     height: 80px;
     padding:10px;
     width: 450px;
 }
 
-.label-container{
+.event-label-container{
     float:left;
     width:130px;
-    height: 40px;
-    background-color: #74C043;
-    color: white;
+    height:20px;
+    color: darkgreen;
+    font-weight: 550;
     margin: 10px;
-    padding: 10px;
+    padding: 0px;
     font-size: 20px;
+    border-radius: 10px;
+
 }
 
-.input-container{
+.event-input-container{
     float: left;
     width: 250px;
-    font-size:18px;
+    font-size:16px;
 }
 
-.input-box{
-    margin:10px;
-    width: 250px ;
-    height: 40px;
+.event-input-box{
+    margin:5;
+    width: 250px;
+    height: 20px;
     padding: 10px;
+    font-size: 18px;
 }
 
 #button-container button{
     width: 450px;
-    height: 40px;
-    padding: 10px;
-    font-size: 18px;
-    font-weight: bold;
+    height: auto;
+    padding: 20px;
+    font-size: 20px;
     color: white;
     background-color:#74C043;
     border:none;
 }
+

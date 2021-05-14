@@ -1,10 +1,20 @@
 body{
-    max-width: 700px;
-    margin: auto;
-    font-family: 'Times New Roman', Times, serif;
+    margin:auto;
     background-color: #74C043;
-    text-align: center;
+    padding: 10px;
 }
+/* admin header stylesheet 'Welcome Admin Herald' */
+.admin-main-header{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 
 .admin-main-container{  
@@ -12,11 +22,11 @@ body{
     width: 690px;
     height:auto;
     padding: 5px;
-    margin-top:150px;
     text-align: center;
     background-color: white;
     border: none;
     box-shadow: 2px 4px 5px 0px black;
+    margin: 10px 0px 0px 400px;
 }
 
 
