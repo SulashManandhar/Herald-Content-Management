@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../stylesheet/add-video.css';
+import '../../stylesheet/add-video.css';
 import axios from 'axios';
 
 const body={
