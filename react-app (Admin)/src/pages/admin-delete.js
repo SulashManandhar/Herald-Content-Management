@@ -12,25 +12,25 @@ export default class AdminDelete extends Component {
            <>
             <div className="admin-main-container  clearfix">    
                 <div className="admin-sub-container ">           
-                    <Link href="/delete-contain-admin/delete-video">
+                    <Link to="/delete-video">
                         <h2>Delete a video</h2>
                     </Link>
                 </div>
             
                 <div className="admin-sub-container  ">
-                    <Link href="/delete-image">
+                    <Link to="/delete-image">
                         <h2>Delete an image</h2>
                     </Link>
                 </div>
                 
                 <div className="admin-sub-container ">
-                    <Link href="/delete-event">
+                    <Link to="/delete-event">
                         <h2>Delete an event</h2>
                     </Link>
                 </div>
                 
                 <div className="admin-sub-container">
-                    <Link href="/delete-article">
+                    <Link to="/delete-article">
                         <h2>Delete an article</h2>
                     </Link>
                 </div>
