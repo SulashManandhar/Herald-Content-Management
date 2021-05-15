@@ -1,6 +1,6 @@
 .image-main-container{
     width: 500px;
-    height:540px;
+    height:auto;
     padding:50px;
     margin:10px 0px 0px 420px;  
     background-color: white;
@@ -66,3 +66,7 @@
     border:none;
 }
 
+
+#button-container button:hover{
+    cursor: pointer;
+}

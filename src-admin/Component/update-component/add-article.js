@@ -113,7 +113,7 @@ export default class AddArticle extends Component {
 
                 {/* button input  */}
                 <div className="video-sub-container" id="button-container">
-                    <button id="btn" >Post an annocement</button>
+                    <button id="btn" >Add a video</button>
                 </div>
         
                 </form>

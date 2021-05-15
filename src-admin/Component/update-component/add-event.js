@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import axios from 'axios'
 import '../../stylesheet/add-video.css'
 
@@ -7,7 +7,7 @@ const body={
     
 }
 
-export default class AddArticle extends Component {
+export default class AddEvent extends Component {
     constructor(props){
         super(props);
         this.addData=this.addData.bind(this);
@@ -20,7 +20,9 @@ export default class AddArticle extends Component {
             type:document.getElementById('type-input').value,
             line1:document.getElementById('line1-input').value,
             line2:document.getElementById('line2-input').value,
-        
+            line3:document.getElementById('line3-input').value,
+            line4:document.getElementById('line4-input').value,
+            line5:document.getElementById('line5-input').value
         }).then(res=>{
             console.log(res);
         });
@@ -36,7 +38,7 @@ export default class AddArticle extends Component {
                 <div className="video-header">
                     <span>Herald College Admin</span>
                     <hr/>
-                    <span>Post an article</span>
+                    <span>Add an article</span>
                 </div>
                
 
@@ -113,7 +115,7 @@ export default class AddArticle extends Component {
 
                 {/* button input  */}
                 <div className="video-sub-container" id="button-container">
-                    <button id="btn" >Post an annocement</button>
+                    <button id="btn" >Add a video</button>
                 </div>
         
                 </form>

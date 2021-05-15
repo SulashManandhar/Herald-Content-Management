@@ -1,40 +1,80 @@
 import React, { Component } from 'react'
-import '../stylesheet/contact.css';
+import '../stylesheet/contact.css'
 import axios from 'axios';
-export default class Contact extends Component {
 
+
+export default class Contact extends Component {
+    constructor(props){
+        super(props);
+        // this.addData=this.addData.bind(this);
+        this.state={
+            success:'',
+            error:''
+        }
+    }
+
+    componentDidMount () {
+        const script = document.createElement("script");
+    
+        script.src = "https://code.iconify.design/1/1.0.7/iconify.min.js";
+        script.async = true;
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+        document.body.appendChild(script);
+    }
+
+    submission= event =>{
+        event.preventDefault();
+        axios.post("http://localhost:5000/contact",{
+            name:document.getElementById('submitName').value,
+            email:document.getElementById('submitEmail').value,
+            subject:document.getElementById('submitSubject').value,
+            enquire:document.getElementById('submitEnquire').value,
+        })
+        .then(response=>{
+            this.setState({
+                success:"Successfully sent request"
+            })
+            
+            console.log(this.state.success);
+        })
+        .catch(error=>{
+            this.setState({
+                error:"Error while uploading the data",
+            })
+            console.log(this.state.error)
+        })
+        event.target.reset();
+    }
     render() {
-        return (
-         <>
-         <div className="contact-wrap">
-			<div className="contact-in">
-				<h1>Contact Info</h1>
-				<h2><i className="fa fa-phone" aria-hidden="true"></i> Phone</h2>
-				<p>9801022637, 01-4010120, 01-4010121</p>
-				<h2><i className="fa fa-envelope" aria-hidden="true"></i> Email</h2>
-				<p>info@heraldcollege.edu.np</p>
-				<h2><i className="fa fa-map-marker" aria-hidden="true"></i> Address</h2>
-				<p>Bhagawati Marg, Kathmandu, Nepal</p>
-				<ul>
-					<li><a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i className="fa fa-instagram" aria-hidden="true"></i></a></li>
-				</ul>
-			</div>
-			<div className="contact-in">
-				<h1>Enquire Now</h1>
-				
-					<input type="text" placeholder="First Name" className="contact-in-input"/>
-					<input type="text" placeholder="Last Name" className="contact-in-input"/>
-					<input type="text" placeholder="Email" className="contact-in-input"/>
-					<input type="text" placeholder="Subject" className="contact-in-input"/>
-					<input type="submit" value="SUBMIT" className="contact-in-btn"/>
-				
-			</div>
-			<div className="contact-in">
-				{/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.169115730583!2d85.32856061515037!3d27.71206428278986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1910158959fb%3A0xc274a7c179f20d1a!2sHerald%20College%20Kathmandu%20New%20Facility!5e0!3m2!1sen!2snp!4v1617804751493!5m2!1sen!2snp" width="1000" height="1050" style="border:0;" allowfullscreen="" loading="lazy"></iframe> */}
-			</div>
-		</div>
-         </>
+        return (  
+            <div className="contact-wrap">
+                <div className="contact-in">
+                    <h1>Contact Info</h1>
+                    <h2><i className="fa fa-phone" aria-hidden="true"></i> Phone</h2>
+                    <p>9801022637, 01-4010120, 01-4010121</p>
+                    <h2><i className="fa fa-envelope" aria-hidden="true"></i> Email</h2>
+                    <p>info@heraldcollege.edu.np</p>
+                    <h2><i className="fa fa-map-marker" aria-hidden="true"></i> Address</h2>
+                    <p>Bhagawati Marg, Kathmandu, Nepal</p>
+                    <ul>
+                        <li><a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i className="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+			    </div>
+                <div className="contact-in" onSubmit={this.submission}>
+                    <form action="#">
+                        <h1>Enquire Now</h1>
+                        <input type="text" placeholder="Full Name..." id="submitName" className="contact-in-input" required/>
+                        <input type="email" placeholder="Email..." id="submitEmail" className="contact-in-input" required/>
+                        <input type="text" placeholder="Subject..." id="submitSubject" className="contact-in-input" required/>
+                        <input type="text" placeholder="Enquire..." id="submitEnquire" className="contact-in-input" required/>
+                        <input type="submit" value="SUBMIT" className="contact-in-btn"/>
+                    </form>
+                </div>
+		    </div>
+            
+            
         )
     }
+   
 }

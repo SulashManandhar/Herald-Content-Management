@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import '../../stylesheet/add-event.css';
-import axios from 'axios';
+import axios from 'axios'
+import '../../stylesheet/add-video.css'
 
 const body={
-    maxWidth: '550px',
+    maxWidth:'550px',
+    
 }
 
 export default class AddEvent extends Component {
@@ -12,64 +13,109 @@ export default class AddEvent extends Component {
         this.addData=this.addData.bind(this);
     }
 
-    addData=e=>{
-         e.preventDefault();
+    addData=event=>{
+         event.preventDefault();
         axios.post("http://localhost:5000/event-and-article",{
-            image:document.getElementById('file-input').value,
-            heading:document.getElementById('title-input').value,
-            link:document.getElementById('link-input').value,
-            description:document.getElementById('desc-input').value,
+            title:document.getElementById("title-input").value,
+            type:document.getElementById('type-input').value,
+            line1:document.getElementById('line1-input').value,
+            line2:document.getElementById('line2-input').value,
+            line3:document.getElementById('line3-input').value,
+            line4:document.getElementById('line4-input').value,
+            line5:document.getElementById('line5-input').value
         }).then(res=>{
             console.log(res);
         });
-        e.target.reset();
+        event.target.reset();
+        alert("Successfully added the data");
+        window.location.reload();
     }
     render() {
         return (
             <div className={body}>
-             <div className="event-main-container" >
+             <div className="video-main-container" >
              <form action="#" onSubmit={this.addData}>
-                <div className="event-header">
+                <div className="video-header">
                     <span>Herald College Admin</span>
                     <hr/>
-                    <span>Announce an event</span>
+                    <span>Add an article</span>
                 </div>
                
-        
-        
-                <div className="event-sub-container">
-                    <div className="event-label-container">
-                        <label>Image(jpg):</label>
-                    </div>
-                    <div className="event-input-container">
-                        <input type="file" name="file" id="file-input" className="event-input-box" accept=".jpg,.png"/>
-                    </div>
-                </div>
 
-       
-                <div className="event-sub-container">
-                    <div className="event-label-container">
+                {/* title of title  */}
+                <div className="video-sub-container">
+                    <div className="video-label-container">
                         <label for="Title:">Title:</label>
                     </div>
-                    <div className="event-input-container">
-                        <input type="text" name="title" id="title-input" className="event-input-box"/>
+                    <div className="video-input-container">
+                        <input type="text" name="title" id="title-input" className="video-input-box"/>
                     </div>       
                 </div>
 
-     
-                <div className="event-sub-container">
-                    <div className="event-label-container">
-                        <label for="description">Description:</label>
+                {/* type type  */}
+                <div className="video-sub-container">
+                    <div className="video-label-container">
+                        <label for="Type">Type:</label>
                     </div>
-                    <div className="event-input-container">
-                        <input type="text" name="description" id="desc-input" className="event-input-box"/>
-                    </div>  
-
+                    <div className="video-input-container">
+                        <input type="text" name="type" id="type-input" className="video-input-box"/>
+                    </div>     
                 </div>
 
-    
-                <div className="event-sub-container" id="button-container">
-                    <button id="btn" >Announce an event</button>
+     
+                {/* Line1  */}
+                <div className="video-sub-container">
+                    <div className="video-label-container">
+                        <label for="line1">Line 1:</label>
+                    </div>
+                    <div className="video-input-container">
+                        <input type="text" name="line1" id="line1-input" className="video-input-box"/>
+                    </div>  
+                </div>
+
+                 {/* Line2  */}
+                 <div className="video-sub-container">
+                    <div className="video-label-container">
+                        <label for="line2">Line 2:</label>
+                    </div>
+                    <div className="video-input-container">
+                        <input type="text" name="line2" id="line2-input" className="video-input-box"/>
+                    </div>  
+                </div>
+
+                 {/* Line3  */}
+                 <div className="video-sub-container">
+                    <div className="video-label-container">
+                        <label for="line3">Line 3:</label>
+                    </div>
+                    <div className="video-input-container">
+                        <input type="text" name="line3" id="line3-input" className="video-input-box"/>
+                    </div>  
+                </div>
+
+                 {/* Line4  */}
+                 <div className="video-sub-container">
+                    <div className="video-label-container">
+                        <label for="line4">Line 4:</label>
+                    </div>
+                    <div className="video-input-container">
+                        <input type="text" name="line4" id="line4-input" className="video-input-box"/>
+                    </div>  
+                </div>
+
+                 {/* Line5 */}
+                 <div className="video-sub-container">
+                    <div className="video-label-container">
+                        <label for="line5">Line 5:</label>
+                    </div>
+                    <div className="video-input-container">
+                        <input type="text" name="line5" id="line5-input" className="video-input-box"/>
+                    </div>  
+                </div>
+
+                {/* button input  */}
+                <div className="video-sub-container" id="button-container">
+                    <button id="btn" >Add a Event</button>
                 </div>
         
                 </form>

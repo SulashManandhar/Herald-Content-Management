@@ -1,6 +1,6 @@
 .video-main-container{
     width: 500px;
-    height:540px;
+    height:auto;
     padding:50px;
     margin:10px 0px 0px 420px;  
     background-color: white;
@@ -52,6 +52,15 @@
     margin:5;
     width: 250px;
     height: 20px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+.video-input-textarea{
+    margin:5;
+    width: 250px;
+    height: auto;
     padding: 10px;
     font-size: 18px;
 }
