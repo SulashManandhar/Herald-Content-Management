@@ -1,4 +1,4 @@
-.video-main-container{
+.image-main-container{
     width: 500px;
     height:auto;
     padding:50px;
@@ -9,7 +9,7 @@
     box-shadow: 2px 4px 5px 0px black;
 }
 
-.video-header{
+.image-header{
     width: 450px;
     height: 80px;
     margin: auto;
@@ -18,18 +18,18 @@
     color: white;
     text-align: center;
 }
-.video-header span{
+.image-header span{
     font-size: 26px;
 }
 
-.video-sub-container{
+.image-sub-container{
     margin: auto;
     height: 80px;
     padding:10px;
     width: 450px;
 }
 
-.video-label-container{
+.image-label-container{
     float:left;
     width:130px;
     height:20px;
@@ -42,25 +42,16 @@
 
 }
 
-.video-input-container{
+.image-input-container{
     float: left;
     width: 250px;
     font-size:16px;
 }
 
-.video-input-box{
+.image-input-box{
     margin:5;
     width: 250px;
     height: 20px;
-    padding: 10px;
-    font-size: 18px;
-}
-
-
-.video-input-textarea{
-    margin:5;
-    width: 250px;
-    height: auto;
     padding: 10px;
     font-size: 18px;
 }
@@ -75,3 +66,7 @@
     border:none;
 }
 
+
+#button-container button:hover{
+    cursor: pointer;
+}
