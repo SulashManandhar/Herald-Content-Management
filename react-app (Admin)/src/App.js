@@ -18,8 +18,10 @@ function App() {
 
   const adminUser = {
     email:"admin@admin.com",
-    password:"password"
+    password:"password",
   }
+
+ 
 
   const [user,setUser]=useState({name:"",email:""});
   const [error,setError]=useState("");
@@ -31,11 +33,13 @@ function App() {
       setUser({
         email:details.email
       })
+      
     }else{
       console.log("Error while logging in");
       setError("Error while logging, either email or password is wrong")
       alert(setError  );
       window.location.reload();
+     
     }
   }
 
@@ -46,12 +50,13 @@ function App() {
   return (
     <>
     
-      {/* {(user.email !="")?( */}
+        {(user.email != "")?(
+          
          <BrowserRouter>
           <AdminHeader/>
           <div className="clearfix"></div>
             <Switch>
-              <Route exact path="/admin" component={Admin}></Route>
+              <Route exact path="/" component={Admin}></Route>
               <Route path="/delete-contain-admin" component={AdminDelete}></Route>
               {/* add route  */}
               <Route path="/add-video" component={AddVideo}></Route>
@@ -65,9 +70,9 @@ function App() {
               <Route path="/delete-event" component={DeleteEvent}></Route>
              </Switch>
           </BrowserRouter>
-      {/* ):(
+      ):(
         <LoginForm Login={Login} error={error}/>
-      )} */}
+      )}
      
     </>
   );

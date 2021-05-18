@@ -12,27 +12,27 @@ export default class Admin extends Component {
            <>
             <div className="admin-main-container  clearfix">    
                 <div className="admin-sub-container ">           
-                    <a href="/add-video">
+                    <Link to="/add-video">
                         <h2>Add a video</h2>
-                    </a>
+                    </Link>
                 </div>
             
                 <div className="admin-sub-container  ">
-                    <a href="/add-image">
+                    <Link to="/add-image">
                         <h2>Add an image</h2>
-                    </a>
+                    </Link>
                 </div>
                 
                 <div className="admin-sub-container ">
-                    <a href="/add-event">
+                    <Link to="/add-event">
                         <h2>Announce an event</h2>
-                    </a>
+                    </Link>
                 </div>
                 
                 <div className="admin-sub-container">
-                    <a href="/post-article">
+                    <Link to="/post-article">
                         <h2>Post an article</h2>
-                    </a>
+                    </Link>
                 </div>
 
             </div>
