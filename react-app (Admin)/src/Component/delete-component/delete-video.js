@@ -47,7 +47,7 @@ export default class DeleteVideo extends Component {
         })
         event.target.reset();
         alert("Successfully delete the video");
-        window.location.reload();
+        //window.location.reload();
     }
 
 

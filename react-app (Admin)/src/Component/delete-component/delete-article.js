@@ -9,9 +9,7 @@ export default class DeleteArticle extends Component {
             data:[],
             length:0,
             flag:0,
-            flag1:1
         }
-      
     }
     
     componentDidMount(){
@@ -22,8 +20,6 @@ export default class DeleteArticle extends Component {
             })
             {console.log("Data number "+this.state.data.length)}
         })
-    
-
     }
 
     getId=event=>{
@@ -47,8 +43,7 @@ deleteData=event=>{
     })
     event.target.reset();
     alert("Successfully delete the data");
-    window.location.reload();
-
+    //window.location.reload();
 }
     render() {
         return (

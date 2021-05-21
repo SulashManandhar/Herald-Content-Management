@@ -24,7 +24,6 @@ export default class AddImage extends Component {
         });
         event.target.reset();
         alert("Successfully added the data");
-        window.location.reload();
     }
 
     render() {

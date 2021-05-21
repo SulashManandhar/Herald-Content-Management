@@ -24,7 +24,6 @@ export default class AddVideo extends Component {
         });
         e.target.reset();
         alert("Successfully added the data");
-        window.location.reload();
     }
     render() {
         return (

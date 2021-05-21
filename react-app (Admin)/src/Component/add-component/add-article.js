@@ -26,7 +26,6 @@ export default class AddArticle extends Component {
         });
         event.target.reset();
         alert("Successfully added the data");
-        window.location.reload();
     }
     render() {
         return (

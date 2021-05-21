@@ -47,7 +47,7 @@ deleteData=event=>{
     })
     event.target.reset();
     alert("Successfully delete the data");
-    window.location.reload();
+    //window.location.reload();
 
 }
     render() {

@@ -28,7 +28,6 @@ export default class AddEvent extends Component {
         });
         event.target.reset();
         alert("Successfully added the data");
-        window.location.reload();
     }
     render() {
         return (

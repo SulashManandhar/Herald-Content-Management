@@ -37,7 +37,7 @@ function App() {
     }else{
       console.log("Error while logging in");
       setError("Error while logging, either email or password is wrong")
-      alert(setError  );
+      alert( "Error while logging, either email or password is wrong" );
       window.location.reload();
      
     }

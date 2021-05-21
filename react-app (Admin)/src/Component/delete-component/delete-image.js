@@ -47,7 +47,7 @@ export default class DeleteImage extends Component {
         })
         event.target.reset();
         alert("Successfully delete the image");
-        window.location.reload();
+        //window.location.reload();
 
     }
     render() {
